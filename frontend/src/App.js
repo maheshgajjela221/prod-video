@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>React Frontend</h1>
+      <h1>MYHUB MY AUTOMATION</h1>
       <p>{message}</p>
     </div>
   );
