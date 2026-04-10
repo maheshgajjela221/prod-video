@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("/api")
+    fetch("http://54.89.188.150/api")
       .then(res => res.text())
       .then(data => setMessage(data))
       .catch(() => setMessage("Backend not reachable"));
